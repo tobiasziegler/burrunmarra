@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<p>Welcome to Burrunmarra, an online game for learning Wiradjuri language.</p>
+
+<p>
+	When you begin the game, you will be presented with a number of pictures and a Wiradjuri word.
+	Select the picture that matches the word!
+</p>
+
+<p>Ready to get started?</p>
+
+<a href="/game">Begin</a>
