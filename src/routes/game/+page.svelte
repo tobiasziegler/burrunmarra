@@ -1,11 +1,13 @@
 <script lang="ts">
-	import { games } from '$lib/games';
+	import type { PageData } from './$types';
+
+	export let data: PageData;
 </script>
 
 <p>Which type of pictures do you want to learn with?</p>
 
 <ul>
-	{#each games as game}
+	{#each data.games as game}
 		<li><a href="/game/{game.slug}">{game.name}</a></li>
 	{/each}
 </ul>
