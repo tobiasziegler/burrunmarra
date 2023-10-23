@@ -6,7 +6,8 @@ import { getMultipleRandom } from '$lib/utils';
 export const GET: RequestHandler = ({ params }) => {
 	const index = games.findIndex((g) => g.slug === params.slug);
 	const fulldata = games[index];
-	const data = { ...fulldata, items: getMultipleRandom(fulldata.items, params.num) };
+	const num = parseInt(params.num);
+	const data = { ...fulldata, items: getMultipleRandom(fulldata.items, num) };
 
 	return json(data);
 };
