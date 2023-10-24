@@ -4,6 +4,7 @@ export interface Game {
 	slug: string;
 	name: string;
 	items: number[];
+	target?: number;
 }
 
 export const games = [

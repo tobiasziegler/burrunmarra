@@ -15,6 +15,7 @@
 </script>
 
 <form method="POST">
+	<h2>Select this number: {game.target}</h2>
 	{#each game.items as item}
 		<button name="select" value={item}>{item}</button>
 	{/each}
@@ -22,5 +23,5 @@
 </form>
 
 {#if form?.select}
-	<p>You selected {form.select}!</p>
+	<p>You selected {form.select} - {form.select == game.target ? 'correct' : 'incorrect'}!</p>
 {/if}
