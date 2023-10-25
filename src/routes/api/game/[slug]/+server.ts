@@ -6,7 +6,7 @@ import { getRandomElement } from '$lib/utils';
 export const GET: RequestHandler = ({ params }) => {
 	const index = games.findIndex((g) => g.slug === params.slug);
 	const gameData = games[index];
-	const game = { ...gameData, target: getRandomElement(gameData.items) };
+	const game = { ...gameData, target: getRandomElement(gameData.items).wiradjuri };
 
 	return json(game);
 };

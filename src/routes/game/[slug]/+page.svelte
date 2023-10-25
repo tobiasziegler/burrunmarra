@@ -15,9 +15,9 @@
 </script>
 
 <form method="POST">
-	<h2>Select this number: {game.target}</h2>
+	<h2>Select the option that matches: {game.target}</h2>
 	{#each game.items as item}
-		<button name="select" value={item}>{item}</button>
+		<button name="select" value={item.wiradjuri}>{item.english}</button>
 	{/each}
 	<input type="hidden" name="game" value={JSON.stringify(game)} />
 </form>

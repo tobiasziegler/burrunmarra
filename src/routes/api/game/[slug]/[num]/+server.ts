@@ -8,7 +8,7 @@ export const GET: RequestHandler = ({ params }) => {
 	const fullGameData = games[index];
 	const num = parseInt(params.num);
 	const gameData = { ...fullGameData, items: getMultipleRandom(fullGameData.items, num) };
-	const game = { ...gameData, target: getRandomElement(gameData.items) };
+	const game = { ...gameData, target: getRandomElement(gameData.items).wiradjuri };
 
 	return json(game);
 };
