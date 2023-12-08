@@ -2,6 +2,8 @@
 	import type { PageData, ActionData } from './$types';
 	import type { Game } from '$lib/games';
 
+	import { enhance } from '$app/forms';
+
 	export let data: PageData;
 	export let form: ActionData;
 
@@ -14,7 +16,7 @@
 	}
 </script>
 
-<form method="POST">
+<form method="POST" use:enhance>
 	<h2>Select the option that matches: {game.target}</h2>
 
 	<div class="images">
