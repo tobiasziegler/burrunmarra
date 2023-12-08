@@ -137,5 +137,67 @@ export const games: Game[] = [
 					'Licensed via my Adobe Stock subscription: https://stock.adobe.com/au/images/portrait-of-the-biblical-noah-waiting-for-better-weather-and-the-return-of-the-dove-christian-illustration/625952538?prev_url=detail'
 			}
 		]
+	},
+	{
+		slug: 'phrases-nouns-and-verbs',
+		name: 'Phrases - nouns and verbs',
+		items: [
+			{
+				wiradjuri: 'bulanbulan gurawiny dharra',
+				english: 'Crimson Rosella eating flowers',
+				image: 'AdobeStock_510164231.jpeg',
+				credit:
+					'Licensed via my Adobe Stock subscription: https://stock.adobe.com/au/images/australian-native-crimson-rosella-parrot-perched-and-eating-flowers-from-a-native-bush-in-wilsons-promontory-national-park-victoria/510164231?prev_url=detail'
+			},
+			{
+				wiradjuri: 'yinaa dhindha narrundirra',
+				english: 'woman kicking ball',
+				image: '640px-AusChi3_-_Kerr6_(51555184377).jpg',
+				credit:
+					'By LittleBlinky - AusChi3 - Kerr6, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=112037552'
+			},
+			{
+				wiradjuri: 'dyumbag gudha ngamu widyarra',
+				english: 'baby sheep drinking milk',
+				image: '640px-Feeding_black_lamb.jpg',
+				credit:
+					'By Andrei Niemimäki from Turku, Finland - Feeding black lamb, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=9753654'
+			},
+			{
+				wiradjuri: 'yinaa gurawiny gaambilanha',
+				english: 'woman holding flowers',
+				image: '540px-Woman_with_Flowers_-_Dolores_Hidalgo_-_Mexico_(38394962885).jpg',
+				credit:
+					'By Adam Jones from Kelowna, BC, Canada - Woman with Flowers - Dolores Hidalgo - Mexico, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=65341753'
+			},
+			{
+				wiradjuri: 'dyirribang galigal gaambilanha',
+				english: 'old man holding a knife',
+				image: 'AdobeStock_275836746.jpeg',
+				credit:
+					'Licensed via my Adobe Stock subscription: https://stock.adobe.com/au/images/old-man-attack-with-knife-in-city/275836746?prev_url=detail'
+			},
+			{
+				wiradjuri: 'dyirribang dyumbag gudha gaambilanha',
+				english: 'old man holding a baby sheep',
+				image: 'AdobeStock_672995533.jpeg',
+				credit:
+					'Licensed via my Adobe Stock subscription: https://stock.adobe.com/au/images/a-pencil-drawing-of-an-old-man-holding-a-baby-sheep/672995533?prev_url=detail'
+			},
+			{
+				wiradjuri: 'dyirribang-galang dhindha-galang wanhanha',
+				english: 'old men throwing balls',
+				image: 'AdobeStock_242506096.jpeg',
+				credit:
+					'Licensed via my Adobe Stock subscription: https://stock.adobe.com/au/images/old-men-playing-a-game-of-boules-together/242506096?prev_url=detail'
+			},
+			{
+				wiradjuri: 'yinaa ngamu widyarra',
+				english: 'woman drinking milk',
+				image: 'AdobeStock_49443348.jpeg',
+				credit:
+					'Licensed via my Adobe Stock subscription: https://stock.adobe.com/au/images/young-woman-drinking-milk-in-kitchen/49443348?prev_url=detail'
+			}
+		]
 	}
 ];
