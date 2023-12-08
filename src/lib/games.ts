@@ -102,5 +102,40 @@ export const games: Game[] = [
 					'Photo by Donald Teel CC0 on Unsplash, https://unsplash.com/photos/mans-portrait-photography-wCIDfKBMDHEUnsplash'
 			}
 		]
+	},
+	{
+		slug: 'paired-nouns',
+		name: 'Paired nouns',
+		items: [
+			{
+				wiradjuri: 'mulbirrang-galang-bu bulanbulan-bu',
+				english: 'Eastern Rosellas and Crimson Rosella also',
+				image: 'AdobeStock_3653132.jpeg',
+				credit:
+					'Licensed via my Adobe Stock subscription: https://stock.adobe.com/au/images/sittichtranke/3653132?prev_url=detail'
+			},
+			{
+				wiradjuri: 'garba-bu galigal-bu',
+				english: 'fork and knife also',
+				image:
+					'lossy-page1-640px-Maison_Cardeilhac_-_Dessert_Knife_and_Fork_-_2003.245_-_Cleveland_Museum_of_Art.tif.jpg',
+				credit:
+					'By Maison Cardeilhac - https://clevelandart.org/art/2003.245, CC0, https://commons.wikimedia.org/w/index.php?curid=77158981'
+			},
+			{
+				wiradjuri: 'mulbirrang wuba-dha',
+				english: 'Eastern Rosella in/by a hollow',
+				image: '640px-Female_Eastern_Rosella_in_a_tree_hollow_at_Lake_Albert.jpg',
+				credit:
+					'By Bidgee, CC BY-SA 3.0 au, https://commons.wikimedia.org/w/index.php?curid=21845171'
+			},
+			{
+				wiradjuri: 'dyirribang yurung-ga',
+				english: 'old man in the rain',
+				image: 'AdobeStock_625952538.jpeg',
+				credit:
+					'Licensed via my Adobe Stock subscription: https://stock.adobe.com/au/images/portrait-of-the-biblical-noah-waiting-for-better-weather-and-the-return-of-the-dove-christian-illustration/625952538?prev_url=detail'
+			}
+		]
 	}
 ];
