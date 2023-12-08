@@ -16,12 +16,15 @@
 
 <form method="POST">
 	<h2>Select the option that matches: {game.target}</h2>
-	{#each game.items as item}
-		<button name="select" value={item.wiradjuri}>
-			<img src={`/img/${item.image}`} alt={`${item.english}`} />
-		</button>
-	{/each}
-	<input type="hidden" name="game" value={JSON.stringify(game)} />
+
+	<div class="images">
+		{#each game.items as item}
+			<button name="select" value={item.wiradjuri}>
+				<img src={`/img/${item.image}`} alt={`${item.english}`} />
+			</button>
+		{/each}
+		<input type="hidden" name="game" value={JSON.stringify(game)} />
+	</div>
 </form>
 
 {#if form?.select}

@@ -1,3 +1,7 @@
+<script lang="ts">
+	import '../styles.css';
+</script>
+
 <header>
 	<h1>Burrunmarra</h1>
 </header>
