@@ -1,6 +1,12 @@
 {
 	"name": "burrunmarra",
 	"version": "0.0.1",
+	"description": "A word- and phrase-matching game to learn Wiradjuri language",
+	"homepage": "https://github.com/tobiasziegler/burrunmarra#readme",
+	"bugs": "https://github.com/tobiasziegler/burrunmarra/issues",
+	"license": "MIT",
+	"author": "David Mallard <correspondence@davidmallard.id.au> (https://davidmallard.id.au/)",
+	"repository": "github:tobiasziegler/burrunmarra",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
