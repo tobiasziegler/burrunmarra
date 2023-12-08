@@ -1,7 +1,7 @@
 {
 	"name": "burrunmarra",
 	"version": "0.0.1",
-	"description": "A word- and phrase-matching game to learn Wiradjuri language",
+	"description": "An online picture-selecting game to learn Wiradjuri words and phrases",
 	"homepage": "https://github.com/tobiasziegler/burrunmarra#readme",
 	"bugs": "https://github.com/tobiasziegler/burrunmarra/issues",
 	"license": "MIT",
