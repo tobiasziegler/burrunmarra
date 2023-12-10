@@ -6,8 +6,8 @@
 
 <p>Which type of pictures do you want to learn with?</p>
 
-<ul>
+<ul class="button-group">
 	{#each data.games as game}
-		<li><a href="/game/{game.slug}">{game.name}</a></li>
+		<li><a href="/game/{game.slug}" class="button">{game.name}</a></li>
 	{/each}
 </ul>

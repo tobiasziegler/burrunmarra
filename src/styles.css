@@ -88,3 +88,22 @@ header a {
 	max-width: 100%;
 	border: 0.5rem solid #ffffff;
 }
+
+ul.button-group {
+	display: flex;
+	list-style: none;
+}
+
+.button {
+	border: 0;
+	border-radius: 0.5rem;
+	background: #fa3201;
+	color: white;
+	font-size: 1rem;
+	line-height: 1.2;
+	white-space: nowrap;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	margin: 1rem;
+	cursor: pointer;
+}
