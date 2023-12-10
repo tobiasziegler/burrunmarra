@@ -59,11 +59,20 @@ header a {
 	text-decoration: none;
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 30rem) {
 	.images {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(2, minmax(1fr, 10rem));
+		grid-gap: 1rem;
+	}
+}
+
+@media (min-width: 60rem) {
+	.images {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(4, minmax(1fr, 10rem));
 		grid-gap: 1rem;
 	}
 }
@@ -80,7 +89,7 @@ header a {
 	color: inherit;
 	font: inherit;
 	margin: 1rem;
-	width: 100%;
+	max-width: 100%;
 	text-align: center;
 }
 
