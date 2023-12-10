@@ -3,7 +3,7 @@
 </script>
 
 <header>
-	<h1>Burrunmarra ("pick")</h1>
+	<h1><a href="/">Burrunmarra ("pick")</a></h1>
 	<p>An online picture-selecting game to learn Wiradjuri words and phrases</p>
 </header>
 
