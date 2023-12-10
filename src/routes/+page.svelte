@@ -12,4 +12,4 @@
 
 <p>Ready to get started?</p>
 
-<a href="/game">Begin</a>
+<p><a href="/game" class="button">Begin</a></p>
