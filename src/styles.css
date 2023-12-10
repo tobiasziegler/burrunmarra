@@ -55,6 +55,10 @@ a {
 	color: inherit;
 }
 
+header a {
+	text-decoration: none;
+}
+
 @media (min-width: 60rem) {
 	.images {
 		display: grid;
