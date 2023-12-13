@@ -11,7 +11,7 @@
 </script>
 
 <form method="POST" use:enhance>
-	<h2>Select the option that matches: {game.target}</h2>
+	<p class="target">{game.target}</p>
 
 	<div class="images">
 		{#each game.items as item}
@@ -23,9 +23,11 @@
 	</div>
 
 	{#if select}
-		<p class="answer">
-			You selected {form.select} - {select == game.target ? 'correct! ✅' : 'incorrect ❌'}
-		</p>
-		<button name="reset" value="true" class="button">Next Pick</button>
+		<div class="answer-panel">
+			<p class="answer">
+				You selected {form.select} - {select == game.target ? 'correct! ✅' : 'incorrect ❌'}
+			</p>
+			<button name="reset" value="true" class="button">Next Pick</button>
+		</div>
 	{/if}
 </form>

@@ -77,6 +77,17 @@ header a {
 	}
 }
 
+.target {
+	font-size: 1.5rem;
+	font-weight: 400;
+	font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow',
+		sans-serif-condensed, sans-serif;
+	color: #fa3201;
+	margin: 0 0 0.5em 0;
+	line-height: 1.1;
+	text-align: center;
+}
+
 .images button {
 	-webkit-appearance: none;
 	border-radius: 0;
@@ -115,4 +126,10 @@ ul.button-group {
 	padding: 0.5rem 1rem;
 	margin: 1rem;
 	cursor: pointer;
+}
+
+.answer-panel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
