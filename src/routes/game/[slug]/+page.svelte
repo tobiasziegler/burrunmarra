@@ -32,5 +32,6 @@
 		<p class="answer">
 			You selected {form.select} - {form.select == game.target ? 'correct! ✅' : 'incorrect ❌'}
 		</p>
+		<button name="reset" value="true" class="button">Next Pick</button>
 	{/if}
 </form>
