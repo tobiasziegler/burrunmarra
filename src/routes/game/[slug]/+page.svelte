@@ -21,7 +21,7 @@
 
 	<div class="images">
 		{#each game.items as item}
-			<button name="select" value={item.wiradjuri}>
+			<button name="select" value={item.wiradjuri} disabled={form?.select ? true : false}>
 				<img src={`/img/${item.image}`} alt={`${item.english}`} />
 			</button>
 		{/each}
