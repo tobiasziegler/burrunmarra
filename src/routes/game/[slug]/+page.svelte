@@ -27,8 +27,10 @@
 		{/each}
 		<input type="hidden" name="game" value={JSON.stringify(game)} />
 	</div>
-</form>
 
-{#if form?.select}
-	<p>You selected {form.select} - {form.select == game.target ? 'correct' : 'incorrect'}!</p>
-{/if}
+	{#if form?.select}
+		<p class="answer">
+			You selected {form.select} - {form.select == game.target ? 'correct! ✅' : 'incorrect ❌'}
+		</p>
+	{/if}
+</form>
